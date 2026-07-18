@@ -1,0 +1,8 @@
+path: /home/rehan/chest_xray_dataset
+train: train
+val: val
+test: test
+names:
+  0: normal
+  1: pneumonia
+  2: tuberculosis
