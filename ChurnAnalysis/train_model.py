@@ -43,7 +43,7 @@ from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 
 HERE = pathlib.Path(__file__).parent
 MODELS_DIR = HERE / "models"
-DEFAULT_CSV_NAME = "Churn_Modelling.csv"
+DEFAULT_CSV_NAME = "churn_model.csv"
 
 # Columns used as model inputs, in the same order the notebook used them
 # (X = ds.iloc[:, 3:-1] -> everything between CustomerId/Surname and Exited).

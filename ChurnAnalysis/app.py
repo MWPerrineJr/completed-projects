@@ -61,7 +61,7 @@ def get_source_bytes() -> bytes | None:
         return default_path.read_bytes()
 
     st.sidebar.warning(f"'{DEFAULT_CSV_NAME}' not found next to app.py.")
-    uploaded = st.sidebar.file_uploader("Upload Churn_Modelling.csv", type="csv")
+    uploaded = st.sidebar.file_uploader("Upload the churn CSV", type="csv")
     if uploaded is not None:
         return uploaded.getvalue()
     return None
