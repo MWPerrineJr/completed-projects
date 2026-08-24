@@ -1,0 +1,13 @@
+{
+  "total_rows": 6362620,
+  "fraud_counts": {
+    "0": 6354407,
+    "1": 8213
+  },
+  "flagged_counts": {
+    "0": 6362604,
+    "1": 16
+  },
+  "zero_after_transfer": 1188074,
+  "sample_fraction": 0.05
+}
