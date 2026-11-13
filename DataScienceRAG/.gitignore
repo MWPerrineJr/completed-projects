@@ -1,0 +1,13 @@
+# Secrets: never commit
+.env
+.streamlit/secrets.toml
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# macOS
+.DS_Store
